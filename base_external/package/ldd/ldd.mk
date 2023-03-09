@@ -6,11 +6,11 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-LDD_VERSION = b16c638508af19bad7e2d1f2eac1cddc0d74d4fd
+LDD_VERSION = '1634b90ada6254417f4632e4441fd145cb1e0dc3'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
-LDD_SITE = git@github.com:cu-ecen-aeld/assignment-7-mash9756.git
+LDD_SITE = 'git@github.com:cu-ecen-aeld/assignment-7-mash9756.git'
 LDD_SITE_METHOD = git
 LDD_GIT_SUBMODULES = YES
 
