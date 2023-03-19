@@ -5,6 +5,10 @@
 case "$1" in
     start)
         
+        echo "Running aesdchar driver loader script..."
+        aesdchar_load
+        echo "Done!"
+
         echo "Running scull loader script..."
         scull_load
         echo "Done!"
@@ -19,6 +23,10 @@ case "$1" in
 
         ;;
     stop)
+
+        echo "Running aesdchar driver loader script..."
+        aesdchar_unload
+        echo "Done!"
 
         echo "Running scull unloader script..."
         scull_unload
